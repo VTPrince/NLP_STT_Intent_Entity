@@ -1,0 +1,24 @@
+REPORT
+File name: sales_call_telephone_marketers.wav
+Date: 2022-06-22
+Length: 0:00:49
+File stored at: Reports/sales_call_telephone_marketers.wav.txt
+
+MAIN LEMMAS:
+Nancy
+AT&T
+hello
+connection
+Mike
+call
+rental
+
+MAIN PHRASES:
+AT&T incorporation yes
+hello hi
+connection Fantastic
+AT&T number
+monthly rental
+
+MAIN TOPICS:
+#trade

@@ -1,0 +1,97 @@
+{
+    "task_1_output": "Hello hi Nancy, this is Mike from AT&T incorporation Yes, How can I help you? Nancy,You have been using our prepaid connection for a couple of years now, right? Here that's right How would you like a postpaid connection that allows you to make free unlimited voice calls to three AT&T numbers? I would love that, but what's the catch? There's no catch There will be a monthly rental which you will have to pay like any other postpaid connection Fantastic sign me up", 
+    "task_3_output": 
+    [{
+        "text": "Hello hi Nancy, this is Mike from AT&T incorporation", 
+        "intent": "intent_intro", 
+        "entity": 
+        [
+            {"name": "Nancy"}, 
+            {"name": "Mike"}, 
+            {"company": "AT&T incorporation"}
+        ]
+    }, 
+        
+        {
+            "text": "Yes, How can I help you?", 
+            "intent": "intent_ask_purpose", 
+            "entity": 
+            [
+                {"purpose": "help you"}
+            ]
+        }, 
+        
+        {
+            "text": "Nancy,You have been using our prepaid connection for a couple of years now, right?", 
+            "intent": "intent_product", 
+            "entity": 
+            [
+                {"name": "Nancy"}, 
+                {"product": "prepaid connection"}, 
+                {"affirmation": "right"}
+            ]
+        }, 
+            
+        {
+            "text": "Here that's right", 
+            "intent": "intent_affirmative", 
+            "entity": 
+            [
+                {"affirmation": "right"}
+            ]
+        }, 
+            
+        {
+            "text": "How would you like a postpaid connection that allows you to make free unlimited voice calls to three AT&T numbers?", 
+            "intent": "intent_ask_purpose", 
+            "entity": 
+            [
+                {"affirmation": "you"}, 
+                {"product": "postpaid connection"}, 
+                {"affirmation": "you"}, 
+                {"purpose": "make free"}, 
+                {"company": "AT&T numbers"}
+            ]
+        }, 
+        
+        {
+            "text": "I would love that, but what's the catch?", 
+            "intent": "intent_ask_purpose", 
+            "entity": 
+            [
+                {"affirmation": "love"},
+                {"purpose": "catch?"}
+            ]
+        }, 
+        
+        {
+            "text": "There's no catch", 
+            "intent": "intent_ask_purpose", 
+            "entity": 
+            [
+                {"purpose": "catch"}
+            ]
+        }, 
+        
+        {
+            "text": "There will be a monthly rental which you will have to pay like any other postpaid connection", 
+            "intent": "intent_ask_purpose", 
+            "entity": 
+            [
+                {"purpose": "be"},
+                {"purpose": "have"},
+                {"purpose": "pay like"},
+                {"product": "postpaid connection"}
+            ]
+        }, 
+        
+        {
+            "text": "Fantastic sign me up", 
+            "intent": "intent_onboard", 
+            "entity": 
+            [
+                {"onboard": "sign me"}
+            ]
+        }
+    ]
+}

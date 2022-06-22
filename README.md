@@ -13,5 +13,7 @@ Task 3: Separate the sentences in the output of task 1. On each sentence, apply 
 
 To complete this task,we use the trained model from the previous task and apply it to our transcribed text to find the relevant intents and entities. After finding the results we save the output as a json file. 
 
-Task 4: 
+Task 4: For the whole text generated from the audio file generate a summary report.
+
+To complete this task, we use expert.ai's NL API service. We define a custom function to read the transcribed text and find the main lemmas,phrases and topics used in the transcribed text and save the report as a txt file
   
